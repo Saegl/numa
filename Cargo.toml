@@ -1,0 +1,35 @@
+[package]
+name = "numa"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "simple_net"
+path = "src/grok/simple_net.rs"
+
+[[bin]]
+name = "many_inputs"
+path = "src/grok/many_inputs.rs"
+
+[[bin]]
+name = "many_inputs_np"
+path = "src/grok/many_inputs_np.rs"
+
+[[bin]]
+name = "many_outputs"
+path = "src/grok/many_outputs.rs"
+
+[[bin]]
+name = "many_inputs_many_outputs"
+path = "src/grok/many_inputs_many_outputs.rs"
+
+[[bin]]
+name = "pred_on_preds"
+path = "src/grok/pred_on_preds.rs"
+
+[[bin]]
+name = "pred_on_preds_np"
+path = "src/grok/pred_on_preds_np.rs"
+
+[dependencies]
+ndarray = "0.16.1"
