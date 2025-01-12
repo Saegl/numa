@@ -38,3 +38,7 @@ path = "src/grok/ch3/pred_on_preds_np.rs"
 [[bin]]
 name = "quick_numpy"
 path = "src/grok/ch3/quick_numpy.rs"
+
+[[bin]]
+name = "compare"
+path = "src/grok/ch4/compare.rs"
