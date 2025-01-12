@@ -31,5 +31,10 @@ path = "src/grok/pred_on_preds.rs"
 name = "pred_on_preds_np"
 path = "src/grok/pred_on_preds_np.rs"
 
+[[bin]]
+name = "quick_numpy"
+path = "src/grok/quick_numpy.rs"
+
 [dependencies]
 ndarray = "0.16.1"
+ndarray-rand = "0.15.0"
