@@ -3,38 +3,38 @@ name = "numa"
 version = "0.1.0"
 edition = "2021"
 
-[[bin]]
-name = "simple_net"
-path = "src/grok/simple_net.rs"
-
-[[bin]]
-name = "many_inputs"
-path = "src/grok/many_inputs.rs"
-
-[[bin]]
-name = "many_inputs_np"
-path = "src/grok/many_inputs_np.rs"
-
-[[bin]]
-name = "many_outputs"
-path = "src/grok/many_outputs.rs"
-
-[[bin]]
-name = "many_inputs_many_outputs"
-path = "src/grok/many_inputs_many_outputs.rs"
-
-[[bin]]
-name = "pred_on_preds"
-path = "src/grok/pred_on_preds.rs"
-
-[[bin]]
-name = "pred_on_preds_np"
-path = "src/grok/pred_on_preds_np.rs"
-
-[[bin]]
-name = "quick_numpy"
-path = "src/grok/quick_numpy.rs"
-
 [dependencies]
 ndarray = "0.16.1"
 ndarray-rand = "0.15.0"
+
+[[bin]]
+name = "simple_net"
+path = "src/grok/ch3/simple_net.rs"
+
+[[bin]]
+name = "many_inputs"
+path = "src/grok/ch3/many_inputs.rs"
+
+[[bin]]
+name = "many_inputs_np"
+path = "src/grok/ch3/many_inputs_np.rs"
+
+[[bin]]
+name = "many_outputs"
+path = "src/grok/ch3/many_outputs.rs"
+
+[[bin]]
+name = "many_inputs_many_outputs"
+path = "src/grok/ch3/many_inputs_many_outputs.rs"
+
+[[bin]]
+name = "pred_on_preds"
+path = "src/grok/ch3/pred_on_preds.rs"
+
+[[bin]]
+name = "pred_on_preds_np"
+path = "src/grok/ch3/pred_on_preds_np.rs"
+
+[[bin]]
+name = "quick_numpy"
+path = "src/grok/ch3/quick_numpy.rs"
