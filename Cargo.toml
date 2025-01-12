@@ -42,3 +42,23 @@ path = "src/grok/ch3/quick_numpy.rs"
 [[bin]]
 name = "compare"
 path = "src/grok/ch4/compare.rs"
+
+[[bin]]
+name = "hot_and_cold"
+path = "src/grok/ch4/hot_and_cold.rs"
+
+[[bin]]
+name = "hot_and_cold_iter"
+path = "src/grok/ch4/hot_and_cold_iter.rs"
+
+[[bin]]
+name = "dir_and_amount"
+path = "src/grok/ch4/dir_and_amount.rs"
+
+[[bin]]
+name = "grad_descent"
+path = "src/grok/ch4/grad_descent.rs"
+
+[[bin]]
+name = "memo"
+path = "src/grok/ch4/memo.rs"
