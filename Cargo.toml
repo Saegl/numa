@@ -62,3 +62,15 @@ path = "src/grok/ch4/grad_descent.rs"
 [[bin]]
 name = "memo"
 path = "src/grok/ch4/memo.rs"
+
+[[bin]]
+name = "grad_multi_input"
+path = "src/grok/ch5/grad_multi_input.rs"
+
+[[bin]]
+name = "grad_multi_output"
+path = "src/grok/ch5/grad_multi_output.rs"
+
+[[bin]]
+name = "grad_multi_multi"
+path = "src/grok/ch5/grad_multi_multi.rs"
