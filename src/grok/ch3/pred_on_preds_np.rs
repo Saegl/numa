@@ -2,10 +2,12 @@ use ndarray::prelude::*;
 use ndarray::stack;
 
 fn neural_network(input: &Array1<f32>, weights: &Array3<f32>) -> Array1<f32> {
-    let hid_weights = weights.index_axis(Axis(0), 0);
+    // let hid_weights = weights.index_axis(Axis(0), 0);
+    let hid_weights: ArrayView2<f32> = weights.slice(s![0, .., ..]);
     let hid = input.dot(&hid_weights);
 
-    let pred_weights = weights.index_axis(Axis(0), 1);
+    // let pred_weights = weights.index_axis(Axis(0), 1);
+    let pred_weights: ArrayView2<f32> = weights.slice(s![1, .., ..]);
     let pred = hid.dot(&pred_weights);
 
     pred
